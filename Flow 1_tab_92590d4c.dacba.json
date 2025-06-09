@@ -1,0 +1,55 @@
+[
+    {
+        "id": "92590d4c.dacba",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "11ab0e99.789611",
+        "type": "function",
+        "z": "92590d4c.dacba",
+        "name": "",
+        "func": "var require = context.global.get('require'); \nmsg.payload = \"Hello from Interplay Base Binary\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 10000,
+        "newThread": false,
+        "noerr": 0,
+        "x": 580,
+        "y": 260,
+        "wires": [
+            [
+                "5282edf.9e6cf14"
+            ]
+        ]
+    },
+    {
+        "id": "77c122f8.2df2cc",
+        "type": "http in",
+        "z": "92590d4c.dacba",
+        "name": "",
+        "url": "/base",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 310,
+        "y": 260,
+        "wires": [
+            [
+                "11ab0e99.789611"
+            ]
+        ]
+    },
+    {
+        "id": "5282edf.9e6cf14",
+        "type": "http response",
+        "z": "92590d4c.dacba",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 840,
+        "y": 260,
+        "wires": []
+    }
+]
