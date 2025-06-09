@@ -1,0 +1,55 @@
+[
+    {
+        "id": "8a99d807.585498",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "57cb1474.80ddac",
+        "type": "function",
+        "z": "8a99d807.585498",
+        "name": "",
+        "func": "var require = context.global.get('require'); \nmsg.payload = \"Hello from the Interpaly Base Binary\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 10000,
+        "newThread": false,
+        "noerr": 0,
+        "x": 630,
+        "y": 280,
+        "wires": [
+            [
+                "f88a0fd0.b17ea"
+            ]
+        ]
+    },
+    {
+        "id": "47141786.b64d88",
+        "type": "http in",
+        "z": "8a99d807.585498",
+        "name": "",
+        "url": "/base_one",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 360,
+        "y": 280,
+        "wires": [
+            [
+                "57cb1474.80ddac"
+            ]
+        ]
+    },
+    {
+        "id": "f88a0fd0.b17ea",
+        "type": "http response",
+        "z": "8a99d807.585498",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 870,
+        "y": 280,
+        "wires": []
+    }
+]
