@@ -1,0 +1,55 @@
+[
+    {
+        "id": "9721bc78.9d016",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "eab7d105.732fe",
+        "type": "function",
+        "z": "9721bc78.9d016",
+        "name": "",
+        "func": "var require = context.global.get('require'); \n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 10000,
+        "newThread": false,
+        "noerr": 0,
+        "x": 560,
+        "y": 140,
+        "wires": [
+            [
+                "55e04cb.b4b8cb4"
+            ]
+        ]
+    },
+    {
+        "id": "765edcb1.e620b4",
+        "type": "http in",
+        "z": "9721bc78.9d016",
+        "name": "",
+        "url": "/test_endpoint",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 300,
+        "y": 140,
+        "wires": [
+            [
+                "eab7d105.732fe"
+            ]
+        ]
+    },
+    {
+        "id": "55e04cb.b4b8cb4",
+        "type": "http response",
+        "z": "9721bc78.9d016",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 880,
+        "y": 140,
+        "wires": []
+    }
+]
