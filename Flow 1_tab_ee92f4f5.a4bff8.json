@@ -1,0 +1,55 @@
+[
+    {
+        "id": "ee92f4f5.a4bff8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "d001e337.e3f96",
+        "type": "function",
+        "z": "ee92f4f5.a4bff8",
+        "name": "",
+        "func": "var require = context.global.get('require'); \n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 10000,
+        "newThread": false,
+        "noerr": 0,
+        "x": 800,
+        "y": 720,
+        "wires": [
+            [
+                "af61564.33a0ea8"
+            ]
+        ]
+    },
+    {
+        "id": "b245b186.8024b",
+        "type": "http in",
+        "z": "ee92f4f5.a4bff8",
+        "name": "",
+        "url": "/exe",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 400,
+        "y": 720,
+        "wires": [
+            [
+                "d001e337.e3f96"
+            ]
+        ]
+    },
+    {
+        "id": "af61564.33a0ea8",
+        "type": "http response",
+        "z": "ee92f4f5.a4bff8",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1060,
+        "y": 720,
+        "wires": []
+    }
+]
