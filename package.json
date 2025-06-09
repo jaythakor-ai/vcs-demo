@@ -1,7 +1,7 @@
 {
   "name": "CUSTOM",
   "description": "A Interplay Project",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "dependencies": {},
   "node-red": {
     "settings": {

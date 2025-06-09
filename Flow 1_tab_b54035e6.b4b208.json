@@ -1,0 +1,55 @@
+[
+    {
+        "id": "b54035e6.b4b208",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "479238e2.95dce8",
+        "type": "function",
+        "z": "b54035e6.b4b208",
+        "name": "",
+        "func": "var require = context.global.get('require'); \nmsg.payload = \"Hello from Interplay Base Binary One\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 10000,
+        "newThread": false,
+        "noerr": 0,
+        "x": 590,
+        "y": 480,
+        "wires": [
+            [
+                "1e35c126.35341f"
+            ]
+        ]
+    },
+    {
+        "id": "cb0e0b4c.b5deb8",
+        "type": "http in",
+        "z": "b54035e6.b4b208",
+        "name": "",
+        "url": "/base_one",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 320,
+        "y": 480,
+        "wires": [
+            [
+                "479238e2.95dce8"
+            ]
+        ]
+    },
+    {
+        "id": "1e35c126.35341f",
+        "type": "http response",
+        "z": "b54035e6.b4b208",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 960,
+        "y": 460,
+        "wires": []
+    }
+]
