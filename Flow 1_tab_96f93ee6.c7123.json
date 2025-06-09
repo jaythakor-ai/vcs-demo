@@ -29,11 +29,11 @@
         "type": "http in",
         "z": "96f93ee6.c7123",
         "name": "",
-        "url": "/test_3",
+        "url": "/test_5",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 270,
+        "x": 280,
         "y": 180,
         "wires": [
             [
@@ -48,8 +48,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 740,
-        "y": 200,
+        "x": 700,
+        "y": 100,
         "wires": []
     }
 ]
