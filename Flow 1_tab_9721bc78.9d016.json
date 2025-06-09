@@ -29,7 +29,7 @@
         "type": "http in",
         "z": "9721bc78.9d016",
         "name": "",
-        "url": "/test_endpoint",
+        "url": "/test_endpoint_remote",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
