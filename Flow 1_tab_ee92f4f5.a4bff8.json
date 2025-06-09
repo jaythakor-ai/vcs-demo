@@ -29,7 +29,7 @@
         "type": "http in",
         "z": "ee92f4f5.a4bff8",
         "name": "",
-        "url": "/exe",
+        "url": "/exe_one",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
