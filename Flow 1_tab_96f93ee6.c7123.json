@@ -29,7 +29,7 @@
         "type": "http in",
         "z": "96f93ee6.c7123",
         "name": "",
-        "url": "/test_2",
+        "url": "/test_3",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
