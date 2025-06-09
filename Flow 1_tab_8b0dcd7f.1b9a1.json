@@ -1,0 +1,101 @@
+[
+    {
+        "id": "8b0dcd7f.1b9a1",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "9381cfd.c49443",
+        "type": "function",
+        "z": "8b0dcd7f.1b9a1",
+        "name": "",
+        "func": "var require = context.global.get('require'); \nmsg.payload = \"Hello from the Interpaly Base Binary\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 10000,
+        "newThread": false,
+        "noerr": 0,
+        "x": 410,
+        "y": 540,
+        "wires": [
+            [
+                "8c931fe6.49335"
+            ]
+        ]
+    },
+    {
+        "id": "53cad231.c4141c",
+        "type": "http in",
+        "z": "8b0dcd7f.1b9a1",
+        "name": "",
+        "url": "/base",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 540,
+        "wires": [
+            [
+                "cb4e3738.6dddf8"
+            ]
+        ]
+    },
+    {
+        "id": "49858bd.d0ddd74",
+        "type": "http response",
+        "z": "8b0dcd7f.1b9a1",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 650,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "cb4e3738.6dddf8",
+        "type": "function",
+        "z": "8b0dcd7f.1b9a1",
+        "name": "",
+        "func": "var require = context.global.get('require'); \nmsg.payload = \"Hello from the Interpaly Base Binary\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 10000,
+        "newThread": false,
+        "noerr": 0,
+        "x": 410,
+        "y": 540,
+        "wires": [
+            [
+                "8c931fe6.49335"
+            ]
+        ]
+    },
+    {
+        "id": "b537f4f6.0ec158",
+        "type": "http in",
+        "z": "8b0dcd7f.1b9a1",
+        "name": "",
+        "url": "/base",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 540,
+        "wires": [
+            [
+                "cb4e3738.6dddf8"
+            ]
+        ]
+    },
+    {
+        "id": "8c931fe6.49335",
+        "type": "http response",
+        "z": "8b0dcd7f.1b9a1",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 650,
+        "y": 540,
+        "wires": []
+    }
+]
