@@ -29,7 +29,7 @@
         "type": "http in",
         "z": "b54035e6.b4b208",
         "name": "",
-        "url": "/base_one",
+        "url": "/base_two",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
@@ -48,8 +48,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 920,
-        "y": 380,
+        "x": 980,
+        "y": 240,
         "wires": []
     }
 ]
