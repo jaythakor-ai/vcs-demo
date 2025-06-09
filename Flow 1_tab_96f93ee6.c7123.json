@@ -1,0 +1,55 @@
+[
+    {
+        "id": "96f93ee6.c7123",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e87a179c.4074f8",
+        "type": "function",
+        "z": "96f93ee6.c7123",
+        "name": "",
+        "func": "var require = context.global.get('require'); \n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 10000,
+        "newThread": false,
+        "noerr": 0,
+        "x": 520,
+        "y": 180,
+        "wires": [
+            [
+                "530dab7b.112b64"
+            ]
+        ]
+    },
+    {
+        "id": "645d778.3413988",
+        "type": "http in",
+        "z": "96f93ee6.c7123",
+        "name": "",
+        "url": "/test_2",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 270,
+        "y": 180,
+        "wires": [
+            [
+                "e87a179c.4074f8"
+            ]
+        ]
+    },
+    {
+        "id": "530dab7b.112b64",
+        "type": "http response",
+        "z": "96f93ee6.c7123",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 760,
+        "y": 180,
+        "wires": []
+    }
+]
