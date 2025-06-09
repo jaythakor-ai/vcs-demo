@@ -29,11 +29,11 @@
         "type": "http in",
         "z": "ee92f4f5.a4bff8",
         "name": "",
-        "url": "/exe",
+        "url": "/exe_two",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 400,
+        "x": 420,
         "y": 720,
         "wires": [
             [
