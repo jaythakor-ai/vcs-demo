@@ -1,9 +1,9 @@
 {
   "projectName": "CUSTOM",
-  "latestVersionDirectory": "1.0.3",
-  "latestVersionNumber": 4,
+  "latestVersionDirectory": "1.0.4",
+  "latestVersionNumber": 5,
   "currentVersionDirectory": "/interplay_v2/flows/projects/CUSTOM/",
-  "currentVersionNumber": 5,
+  "currentVersionNumber": 6,
   "versionList": [
     {
       "versionNumber": 1,
@@ -39,6 +39,15 @@
       "timeStamp": "2025-06-09T07:36:56.081Z",
       "username": "utsav.shah@ajmerainfotech.com",
       "previousCurrentVersion": 4,
+      "listOfNodes": []
+    },
+    {
+      "versionNumber": 5,
+      "displayText": "Authentication Deploy",
+      "directoryName": "1.0.4",
+      "timeStamp": "2025-06-09T09:20:30.189Z",
+      "username": "utsav.shah@ajmerainfotech.com",
+      "previousCurrentVersion": 5,
       "listOfNodes": []
     }
   ]
