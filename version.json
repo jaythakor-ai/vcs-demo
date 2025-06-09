@@ -1,9 +1,9 @@
 {
   "projectName": "CUSTOM",
-  "latestVersionDirectory": "1.0.6",
-  "latestVersionNumber": 7,
+  "latestVersionDirectory": "1.0.7",
+  "latestVersionNumber": 8,
   "currentVersionDirectory": "/interplay_v2/flows/projects/CUSTOM/",
-  "currentVersionNumber": 8,
+  "currentVersionNumber": 9,
   "versionList": [
     {
       "versionNumber": 1,
@@ -66,6 +66,15 @@
       "timeStamp": "2025-06-09T13:38:57.901Z",
       "username": "UNDEFINED",
       "previousCurrentVersion": 7,
+      "listOfNodes": []
+    },
+    {
+      "versionNumber": 8,
+      "displayText": "Authentication Deploy",
+      "directoryName": "1.0.7",
+      "timeStamp": "2025-06-09T13:44:35.596Z",
+      "username": "UNDEFINED",
+      "previousCurrentVersion": 8,
       "listOfNodes": []
     }
   ]
