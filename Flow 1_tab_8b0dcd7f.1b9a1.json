@@ -42,17 +42,6 @@
         ]
     },
     {
-        "id": "49858bd.d0ddd74",
-        "type": "http response",
-        "z": "8b0dcd7f.1b9a1",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 650,
-        "y": 540,
-        "wires": []
-    },
-    {
         "id": "cb4e3738.6dddf8",
         "type": "function",
         "z": "8b0dcd7f.1b9a1",
@@ -94,8 +83,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 650,
-        "y": 540,
+        "x": 640,
+        "y": 460,
         "wires": []
     }
 ]

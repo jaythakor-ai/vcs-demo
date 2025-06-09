@@ -1,9 +1,9 @@
 {
   "projectName": "CUSTOM",
-  "latestVersionDirectory": "1.0.0",
-  "latestVersionNumber": 1,
+  "latestVersionDirectory": "1.0.3",
+  "latestVersionNumber": 4,
   "currentVersionDirectory": "/home/jay/Music/base_test/interplay_v2/flows/projects/CUSTOM/",
-  "currentVersionNumber": 2,
+  "currentVersionNumber": 5,
   "versionList": [
     {
       "versionNumber": 1,
@@ -12,6 +12,33 @@
       "timeStamp": "2025-06-09T11:50:00.355Z",
       "username": "UNDEFINED",
       "previousCurrentVersion": null,
+      "listOfNodes": []
+    },
+    {
+      "versionNumber": 2,
+      "displayText": "Authentication Deploy",
+      "directoryName": "1.0.1",
+      "timeStamp": "2025-06-09T11:52:48.824Z",
+      "username": "utsav.shah@ajmerainfotech.com",
+      "previousCurrentVersion": 2,
+      "listOfNodes": []
+    },
+    {
+      "versionNumber": 3,
+      "displayText": "Authentication Deploy",
+      "directoryName": "1.0.2",
+      "timeStamp": "2025-06-09T11:52:52.333Z",
+      "username": "utsav.shah@ajmerainfotech.com",
+      "previousCurrentVersion": 3,
+      "listOfNodes": []
+    },
+    {
+      "versionNumber": 4,
+      "displayText": "Authentication Deploy",
+      "directoryName": "1.0.3",
+      "timeStamp": "2025-06-09T11:52:55.222Z",
+      "username": "utsav.shah@ajmerainfotech.com",
+      "previousCurrentVersion": 4,
       "listOfNodes": []
     }
   ]
